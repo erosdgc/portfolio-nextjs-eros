@@ -1,8 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import { BsFillPersonLinesFill } from "react-icons/bs";
-import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+import MediaButtons from "./Shared/MediaButtons";
 
 const Main = () => {
   return (
@@ -13,28 +11,17 @@ const Main = () => {
             Let's build something together
           </p>
           <h1 className="py-4 text-gray-700">
-            Hi, I'm <span className="text-[#CE7726]">Eros</span>
+            Hi, I'm <span className="text-[#CE7726]">Eros David</span>
           </h1>
           <h1 className="py-2 text-gray-700">A Front-End Web Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
             I'm a front-end web developer specializing in building and designing
             digital experiences and solutions. I'm also a full-stack trainee,
-            studying and learning day by day about amazing technologies to meet today's
-            standards.
+            currently studying and learning day by day about amazing
+            technologies to meet today's standards.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <div className="rounded-full text-xl shadow-lg p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaLinkedinIn />
-            </div>
-            <div className="rounded-full text-xl shadow-lg p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaGithub />
-            </div>
-            <div className="rounded-full text-xl shadow-lg p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <MdEmail />
-            </div>
-            <div className="rounded-full text-xl shadow-lg p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <BsFillPersonLinesFill />
-            </div>
+            <MediaButtons />
           </div>
         </div>
       </div>

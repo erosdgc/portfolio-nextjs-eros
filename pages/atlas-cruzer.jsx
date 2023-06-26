@@ -39,7 +39,9 @@ const atlasCruzer = () => {
             I call "pre-checkout", and a checkout where you fill up a form to
             get an auto-generated id order number.
           </p>
-          <p className="mt-3">It features a fully responsive design for every kind of display.</p>
+          <p className="mt-3">
+            It features a fully responsive design for every kind of display.
+          </p>
           <div className="my-6">
             <h3 className="font-bold text-lg pb-2">Technologies</h3>
             <div className="grid grid-cols-3 md:grid-cols-1">
@@ -57,13 +59,13 @@ const atlasCruzer = () => {
               </p>
             </div>
           </div>
-          <div className="flex justify-center md:justify-start my-8 md:my-0">
-            <Link href="http://atlascruzer-app.netlify.app/">
+          <div className="flex justify-start my-8 md:my-0">
+            <Link href="http://atlascruzer-app.netlify.app/" target="blank_">
               <button className="tracking-widest px-8 py-2 mr-6 rounded shadow-sm hover:shadow-lg ease-in duration-200">
                 Demo
               </button>
             </Link>
-            <Link href="https://github.com/erosdgc">
+            <Link href="https://github.com/erosdgc" target="blank_">
               <button className="tracking-widest px-8 py-2 rounded shadow-sm hover:shadow-lg ease-in duration-200">
                 Code
               </button>

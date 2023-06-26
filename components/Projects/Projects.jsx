@@ -1,10 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import ProjectItem from "./ProjectItem";
-import AtlasCruzerImage from "../public/assets/projects/atlas-cruzer.png";
-import ConfBsAsImage from "../public/assets/projects/bsas-conf.png";
-import WeatherApiImage from "../public/assets/projects/weather-api.png";
-import RecordLabelImage from "../public/assets/projects/record-label.png";
+import AtlasCruzerImage from "../../public/assets/projects/atlas-cruzer.png";
+import ConfBsAsImage from "../../public/assets/projects/bsas-conf.png";
+import WeatherApiImage from "../../public/assets/projects/weather-api.png";
+import RecordLabelImage from "../../public/assets/projects/record-label.png";
 
 const Projects = () => {
   return (
@@ -31,7 +31,7 @@ const Projects = () => {
             title="Weather API"
             backgroundImg={WeatherApiImage}
             projectUrl="/weather-api"
-            builtIn="HTML | Javascript | Weather API | Geolocation API | Bootstrap"
+            builtIn="HTML | Javascript | API Rest | Geolocation API | Bootstrap"
           />
           <ProjectItem
             title="STAR01 Recordings"

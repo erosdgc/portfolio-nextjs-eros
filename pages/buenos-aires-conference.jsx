@@ -59,13 +59,13 @@ const buenosAiresConference = () => {
               </p>
             </div>
           </div>
-          <div className="flex justify-center md:justify-start my-8 md:my-0">
-            <Link href="http://atlascruzer-app.netlify.app/">
+          <div className="flex justify-start my-8 md:my-0">
+            <Link href="http://atlascruzer-app.netlify.app/" target="blank_">
               <button className="tracking-widest px-8 py-2 mr-6 rounded shadow-sm hover:shadow-lg ease-in duration-200">
                 Demo
               </button>
             </Link>
-            <Link href="https://github.com/erosdgc">
+            <Link href="https://github.com/erosdgc" target="blank_">
               <button className="tracking-widest px-8 py-2 rounded shadow-sm hover:shadow-lg ease-in duration-200">
                 Code
               </button>

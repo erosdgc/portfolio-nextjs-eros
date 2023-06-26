@@ -20,7 +20,7 @@ const weatherApi = () => {
         <div className="absolute top-[60%] md:top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-30%] text-white/95 z-10 py-2 px-8 xl:px-0">
           <h2 className="my-4">Weather API</h2>
           <h3 className="text-xl">
-            HTML | Javascript | Weather API | Geolocation API | Bootstrap
+            HTML | Javascript | API Rest | Geolocation API | Bootstrap
           </h3>
         </div>
       </div>
@@ -62,13 +62,13 @@ const weatherApi = () => {
             </div>
           </div>
 
-          <div className="flex justify-center md:justify-start my-8 md:my-5">
-            <Link href="http://atlascruzer-app.netlify.app/">
+          <div className="flex justify-start my-8 md:my-5">
+            <Link href="http://atlascruzer-app.netlify.app/" target="blank_">
               <button className="tracking-widest md:text-sm px-8 py-2 mr-6 rounded shadow-sm hover:shadow-lg ease-in duration-200">
                 Demo
               </button>
             </Link>
-            <Link href="https://github.com/erosdgc">
+            <Link href="https://github.com/erosdgc" target="blank_">
               <button className="tracking-widest md:text-sm px-8 py-2 rounded shadow-sm hover:shadow-lg ease-in duration-200">
                 Code
               </button>

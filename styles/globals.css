@@ -22,10 +22,13 @@ html {
   scroll-margin-block-start: 14vh;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
 @layer base {
   body {
     /* @apply bg-[#393939] text-[#1f2937] tracking-wide */
     @apply bg-[#F7F7F7] text-[#1f2937] tracking-wide;
+    /* font-family: "Quicksand", sans-serif; */
   }
 
   input[type="number"]::-webkit-outer-spin-button,

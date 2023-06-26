@@ -4,7 +4,7 @@ import React from "react";
 
 const ProjectItem = ({ title, backgroundImg, builtIn, projectUrl }) => {
   return (
-    <div className="relative flex items-center justify-center h-auto w-full rounded p-2 bg-gray-900 group shadow-lg hover:shadow-xl hover:bg-gradient-to-t from-gray-900 to-[#CE7726]">
+    <div className="relative flex items-center justify-center h-auto w-full rounded bg-gray-900 hover:bg-gray-900 group shadow-xl hover:backdrop-blur-sm">
       <Image
         className="rounded group-hover:opacity-10 ease-in duration-300"
         src={backgroundImg}
